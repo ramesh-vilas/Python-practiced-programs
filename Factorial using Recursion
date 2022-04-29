@@ -1,0 +1,8 @@
+#Program to find factorial of given number using Recursion
+
+def fact(n):
+  return 1 if(n==0 or n==1) else n*fact(n-1)
+  
+num=3
+print("The factorial of",num,'is")
+printfact(num)
